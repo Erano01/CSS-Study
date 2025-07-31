@@ -1,0 +1,24 @@
+// Information Box component (BEM)
+.information-box {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  &__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  &__content {
+    font-size: 1rem;
+    color: #333;
+  }
+  &--success {
+    border-color: #4caf50;
+    background: #e8f5e9;
+  }
+  &--error {
+    border-color: #f44336;
+    background: #ffebee;
+  }
+}

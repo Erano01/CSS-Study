@@ -6,7 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "compile:scss-theme": "npm run compile:sass --workspace=packages/scss-theme",
-    "start:information-box-project": "npm run start --workspace=apps/information-box"
+    "compile:sass": "npm run compile:sass --workspace=packages/scss-theme",
+    "build:information-box": "npm run build --workspace=apps/information-box",
+    "start:information-box": "npm run start --workspace=apps/information-box"
   }
 }
