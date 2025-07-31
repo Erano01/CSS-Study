@@ -1,0 +1,12 @@
+{
+  "name": "css-study",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "compile:scss-theme": "npm run compile:sass --workspace=packages/scss-theme",
+    "start:information-box-project": "npm run start --workspace=apps/information-box"
+  }
+}
