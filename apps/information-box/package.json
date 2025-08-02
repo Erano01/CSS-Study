@@ -2,7 +2,7 @@
   "_comment": "Vite is used as a modern dev server and build tool. It provides live-reload and fast development experience.",
   "name": "information-box",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/playable.js",
   "description": "Information Box demo application.",
   "scripts": {
     "start": "vite --port 3001",

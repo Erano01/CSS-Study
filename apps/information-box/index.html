@@ -1,17 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Information Box Test</title>
-  <link rel="stylesheet" href="/dist/main.css">
-</head>
-<body>
-  <h1>Information Box Test</h1>
-  <div class="information-box information-box--success">
-    <div class="information-box__title">Success!</div>
-    <div class="information-box__content">This is a test message from information-box.</div>
-  </div>
-  <script src="/src/index.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title>Box Model: Standard and Alternate Box Models</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <style></style>
+
+    <style class="editable">
+      .box {
+        border: 5px solid rebeccapurple;
+        background-color: lightgray;
+        padding: 40px;
+        margin: 40px;
+        width: 300px;
+        height: 150px;
+      }
+
+      .alternate {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="preview">
+      <div class="box">I use the standard box model.</div>
+      <div class="box alternate">I use the alternate box model.</div>
+    </section>
+
+    <textarea class="playable playable-css" style="height: 280px">
+      .box {
+        border: 5px solid rebeccapurple;
+        background-color: lightgray;
+        padding: 40px;
+        margin: 40px;
+        width: 300px;
+        height: 150px;
+      }
+
+      .alternate {
+        box-sizing: border-box;
+      }
+    </textarea>
+
+    <textarea class="playable playable-html" style="height: 80px">
+      <div class="box">I use the standard box model.</div>
+      <div class="box alternate">I use the alternate box model.</div>
+    </textarea>
+
+    <div class="playable-buttons">
+      <input id="reset" type="button" value="Reset" />
+    </div>
+  </body>
+  
+  <script src="src/playable.js"></script>
+
 </html>
