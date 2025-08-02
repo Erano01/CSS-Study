@@ -5,14 +5,13 @@
   "main": "src/playable.js",
   "description": "Information Box demo application.",
   "scripts": {
+    "compile:sass": "sass styles/main.scss styles/main.css --watch",
     "start": "vite --port 3001",
     "build": "vite build"
   },
-  "dependencies": {
-    "@css-study/scss-theme": "*"
-  },
   "devDependencies": {
-    "vite": "^4.0.0"
+    "sass": "^1.89.2",
+    "vite": "^7.0.6"
   },
   "author": "",
   "license": "MIT"
