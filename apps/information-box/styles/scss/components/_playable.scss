@@ -1,0 +1,30 @@
+@use "../../abstracts/variables";
+// BEM: .playable, .playable--css, .playable--html, .playable__buttons
+.playable {
+  font-family: monospace;
+  display: block;
+  margin-bottom: 10px;
+  background-color: #f4f7f8;
+  border: none;
+  border-left: 6px solid variables.$color-primary;
+  color: variables.$color-border;
+  width: 90%;
+  max-width: 700px;
+  padding: 10px 10px 0px;
+  font-size: 90%;
+
+  &--css {
+    height: 80px;
+  }
+  &--html {
+    height: 160px;
+  }
+
+  &__buttons {
+    text-align: right;
+    width: 90%;
+    max-width: 700px;
+    padding: 5px 10px 5px 26px;
+    font-size: 100%;
+  }
+}

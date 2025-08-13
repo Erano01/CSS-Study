@@ -1,0 +1,8 @@
+@use "../abstracts/variables";
+body {
+  background-color: variables.$color-bg;
+  color: variables.$color-text;
+  font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}

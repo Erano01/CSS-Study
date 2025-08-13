@@ -1,0 +1,15 @@
+{
+  "_comment": "Vite is used as a modern dev server and build tool. It provides live-reload and fast development experience.",
+  "name": "float-test",
+  "version": "1.0.0",
+  "description": "Float feature test project.",
+  "scripts": {
+    "start": "vite --port 3001",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6"
+  },
+  "author": "",
+  "license": "MIT"
+}

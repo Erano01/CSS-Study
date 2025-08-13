@@ -10,6 +10,12 @@
 
     "compile:sass:information-box": "npm run compile:sass --workspace=apps/information-box",
     "build:information-box": "npm run build --workspace=apps/information-box",
-    "start:information-box": "npm run start --workspace=apps/information-box"
+    "start:information-box": "npm run start --workspace=apps/information-box",
+  
+    "build:float-test": "npm run build --workspace=apps/float-test",
+    "start:float-test": "npm run start --workspace=apps/float-test",
+
+    "build:positioning-test": "npm run build --workspace=apps/positioning-test",
+    "start:positioning-test": "npm run start --workspace=apps/positioning-test"  
   }
 }
