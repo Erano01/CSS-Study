@@ -19,6 +19,9 @@
     "start:positioning-test": "npm run start --workspace=apps/positioning-test",
 
     "build:flexbox-test": "npm run build --workspace=apps/flexbox-test",
-    "start:flexbox-test": "npm run start --workspace=apps/flexbox-test" 
+    "start:flexbox-test": "npm run start --workspace=apps/flexbox-test",
+
+    "build:grid-test": "npm run build --workspace=apps/grid-test",
+    "start:grid-test": "npm run start --workspace=apps/grid-test" 
   }
 }
