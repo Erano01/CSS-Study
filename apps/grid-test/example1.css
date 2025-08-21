@@ -13,4 +13,6 @@ body {
 .grid {
   /* Add styles here */
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
