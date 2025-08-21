@@ -22,6 +22,9 @@
     "start:flexbox-test": "npm run start --workspace=apps/flexbox-test",
 
     "build:grid-test": "npm run build --workspace=apps/grid-test",
-    "start:grid-test": "npm run start --workspace=apps/grid-test" 
+    "start:grid-test": "npm run start --workspace=apps/grid-test",
+    
+    "build:rwd-media-queries-test": "npm run build --workspace=apps/rwd-media-queries-test",
+    "start:rwd-media-queries-test": "npm run start --workspace=apps/rwd-media-queries-test" 
   }
 }
