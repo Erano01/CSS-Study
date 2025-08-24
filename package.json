@@ -25,6 +25,9 @@
     "start:grid-test": "npm run start --workspace=apps/grid-test",
     
     "build:rwd-media-queries-test": "npm run build --workspace=apps/rwd-media-queries-test",
-    "start:rwd-media-queries-test": "npm run start --workspace=apps/rwd-media-queries-test" 
+    "start:rwd-media-queries-test": "npm run start --workspace=apps/rwd-media-queries-test",
+
+    "build:navbar-demo": "npm run build --workspace=apps/navbar-demo",
+    "start:navbar-demo": "npm run start --workspace=apps/navbar-demo" 
   }
 }

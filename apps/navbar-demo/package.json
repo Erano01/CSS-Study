@@ -1,0 +1,17 @@
+{
+  "_comment": "Vite is used as a modern dev server and build tool. It provides live-reload and fast development experience.",
+  "name": "navbar-demo",
+  "version": "1.0.0",
+  "description": "Navbar demo application.",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss main.css --watch",
+    "start": "vite --port 3001",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2",
+    "vite": "^7.0.6"
+  },
+  "author": "",
+  "license": "MIT"
+}
