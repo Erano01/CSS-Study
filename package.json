@@ -28,6 +28,9 @@
     "start:rwd-media-queries-test": "npm run start --workspace=apps/rwd-media-queries-test",
 
     "build:navbar-demo": "npm run build --workspace=apps/navbar-demo",
-    "start:navbar-demo": "npm run start --workspace=apps/navbar-demo" 
+    "start:navbar-demo": "npm run start --workspace=apps/navbar-demo",
+
+    "build:simple-bar-chart": "npm run build --workspace=apps/simple-bar-chart",
+    "start:simple-bar-chart": "npm run start --workspace=apps/simple-bar-chart" 
   }
 }

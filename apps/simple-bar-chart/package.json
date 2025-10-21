@@ -1,0 +1,14 @@
+{
+  "name": "simple-bar-chart",
+  "version": "1.0.0",
+  "description": "Simple Bar Chart project.",
+  "scripts": {
+    "start": "vite --port 3001",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.0.6"
+  },
+  "author": "",
+  "license": "MIT"
+}
